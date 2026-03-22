@@ -142,40 +142,9 @@ QuakeGuard/
 - **Canlı deprem listesi:** [orhanaydogdu Kandilli live API](https://api.orhanaydogdu.com.tr/deprem/kandilli/live) — herkese açık, ek anahtar gerekmez
 - **Bilgi bankası:** `data/` klasörüne kendi PDF/TXT dosyalarınızı ekleyin *(örnek içerik projede mevcut)*
 
----
-
-## 🔒 GitHub'a Yüklerken
-
-> [!WARNING]
-> **`.env` dosyasını asla commit etmeyin.** API anahtarlarınız sızdırılabilir.
-
-Aşağıdaki klasörler `.gitignore` ile dışarıda bırakılmalıdır:
-
-```
-.env
-chroma_db/
-chroma_db_local/
-.venv/
-```
-
----
 
 ## ⚠️ Sorumluluk Reddi
 
 Bu proje **eğitim ve prototip** amaçlıdır. Deprem ve afet kararları için **AFAD**, yerel yönetim ve resmi kurum duyurularını esas alın. Uygulama tıbbi veya hukuki tavsiye vermez.
 
----
 
-## 📄 Lisans
-
-Bu proje [MIT Lisansı](LICENSE) ile lisanslanmıştır.
-
----
-
-<div align="center">
-
-Türkiye'nin deprem güvenliği için 🇹🇷 ile yapıldı
-
-**[AFAD](https://www.afad.gov.tr)** · **[112](tel:112)** · **[Kızılay](https://www.kizilay.org.tr)**
-
-</div>
